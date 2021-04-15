@@ -69,7 +69,7 @@ const ColumnRight = styled.div`
 
 const List = styled.div`
     height:100%;
-    max-height:400px;
+    max-height:100px;
     width: 100% ;
     display : grid;
     grid-template-columns: auto auto;
@@ -77,7 +77,6 @@ const List = styled.div`
 
     h3{
         font-size:16px;
-        margin-top:5px;
     }
 
     @media screen and (min-width:1000px){
@@ -106,9 +105,9 @@ const Services = () => {
                         })}
 
                     </List>
-                    <Button smooth to="#Contact">
+                    {/* <Button smooth to="#Contact">
                         Contactez nous!
-                    </Button>
+                    </Button> */}
 
                 </ColumnRight>
             </Container>
