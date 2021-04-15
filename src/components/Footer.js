@@ -169,11 +169,7 @@ const Footer = () => {
             </p>
           </RightContent>
         </ColumnLeft>
-        <CopyRights
-          data-aos="fade-down"
-          data-aos-duration="1000"
-          data-aos-delay="500"
-        >
+        <CopyRights>
           <img src={logo} alt="EcoTopo" />
           <p>
             Created by
