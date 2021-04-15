@@ -63,6 +63,7 @@ const ColumnRight = styled.div`
 
 const ListContainer = styled.div`
     height:100%;
+    max-height:500px;
     width: 100% ;
     display : grid;
     grid-gap:5px;

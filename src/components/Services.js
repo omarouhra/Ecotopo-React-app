@@ -73,7 +73,7 @@ const List = styled.div`
     width: 100% ;
     display : grid;
     grid-template-columns: auto auto;
-    margin-bottom:2rem;
+    margin-bottom:50px;
 
     h3{
         font-size:16px;
