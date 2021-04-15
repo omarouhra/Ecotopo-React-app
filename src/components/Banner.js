@@ -55,6 +55,11 @@ const Feature = styled.div`
     }
 `;
 const LeftContent = styled.div`
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+ 
+
     
 `;
 const RightContent = styled.div`
@@ -71,7 +76,7 @@ const Banner = () => {
                     <LeftContent>
                         <h2>Suivre votre projet :</h2>
                         <input type="text" valeur="Entrer votre CIN" placeholder="ENTREZ VOTRE CIN" /><br></br>
-                        <input type="Submit" />
+                        <button>valider</button>
 
                     </LeftContent>
                     <RightContent>

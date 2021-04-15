@@ -69,13 +69,15 @@ const ColumnRight = styled.div`
 
 const List = styled.div`
     height:100%;
+    max-height:400px;
     width: 100% ;
     display : grid;
     grid-template-columns: auto auto;
     margin-bottom:2rem;
 
     h3{
-        font-size:18px; 
+        font-size:16px;
+        margin-top:5px;
     }
 
     @media screen and (min-width:1000px){
