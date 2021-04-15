@@ -7,7 +7,10 @@ const Section = styled.section`
   width: 100%;
   height: 100%;
   background-color: #fff8f4;
-  padding: 4rem 2rem;
+  padding-top : 4rem ;
+  padding-left:2rem;
+  padding-right: 2rem;
+  padding-bottom:2rem;
 `;
 const Container = styled.div`
   display: flex;
