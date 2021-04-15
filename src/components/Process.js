@@ -80,7 +80,7 @@ const ListContainer = styled.div`
 const ListContent = styled.div`
     width:100%;
     display: block;
-    margin-bottom:2rem;
+    margin-bottom:25px;
 
     p{
         font-size:18px;

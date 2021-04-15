@@ -80,20 +80,21 @@ const RightContent = styled.div`
   img {
     margin-bottom: 1rem;
     width: 45px;
-    
   }
   p {
+    width: 100%;
     font-size: 18px;
     font-family: "open sans";
     color: black;
     font-weight: 400;
     margin-top: 5px;
   }
-  span {
-    position: absolute;
-    animation: position 1s infinite;
-    margin-top: 3px;
-    @keyframes position {
+  a {
+    span {
+      position: absolute;
+      animation: position 1s infinite;
+      margin-top: 3px;
+      @keyframes position {
         0% {
           transform: translateX(2px);
         }
@@ -105,7 +106,7 @@ const RightContent = styled.div`
         }
       }
     }
- 
+  }
 
   @media (min-width: 1000px) {
     margin-left: 4rem;
@@ -114,7 +115,6 @@ const RightContent = styled.div`
     }
   }
 `;
-
 
 const CopyRights = styled.div`
   width: 100%;
@@ -125,13 +125,10 @@ const CopyRights = styled.div`
     font-size: 18px;
     font-weight: 300;
     color: black;
-
-
-     
   }
   img {
     max-width: 100px;
-    max-height:100px;
+    max-height: 100px;
     position: relative;
     top: -2rem;
   }
