@@ -10,7 +10,7 @@ const Section = styled.section`
   padding-top : 4rem ;
   padding-left:2rem;
   padding-right: 2rem;
-  padding-bottom:2rem;
+  padding-bottom:1rem;
 `;
 const Container = styled.div`
   display: flex;

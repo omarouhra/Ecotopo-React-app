@@ -9,7 +9,7 @@ const DropdownContainer = styled.div`
   z-index: 999;
   width: 100%;
   height: 100%;
-  background: #fff8f4;
+  background: #0D435A;
   display: grid;
   align-items: center;
   top: 0;
@@ -51,11 +51,10 @@ const DropdownLink = styled(Link)`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
   font-size: 2.5rem;
   text-decoration: none;
   list-style: none;
-  color: #ffd2b9;
+  color: #ffff;
   cursor: pointer;
   transition: 0.4s ease-in-out;
 
