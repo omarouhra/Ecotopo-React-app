@@ -77,6 +77,7 @@ const List = styled.div`
 
     h3{
         font-size:16px;
+        margin-top: 5px;
     }
 
     @media screen and (min-width:1000px){
@@ -105,9 +106,9 @@ const Services = () => {
                         })}
 
                     </List>
-                    {/* <Button smooth to="#Contact">
+                    <Button smooth to="#Contact">
                         Contactez nous!
-                    </Button> */}
+                    </Button>
 
                 </ColumnRight>
             </Container>
