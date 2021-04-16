@@ -14,7 +14,7 @@ const DropdownContainer = styled.div`
   align-items: center;
   top: 0;
   left: 0;
-  transition: 0.8s ease-in-out;
+  transition: 0.5s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '1' : '0')};
   left: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 `;

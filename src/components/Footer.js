@@ -130,10 +130,9 @@ const CopyRights = styled.div`
     color: black;
   }
   img {
-    max-width: 100px;
-    max-height: 100px;
+    max-height: 50px;
     position: relative;
-    top: -2rem;
+    top: -1rem;
   }
 
   @media (min-width: 1000px) {
