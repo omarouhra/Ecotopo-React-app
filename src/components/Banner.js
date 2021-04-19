@@ -68,7 +68,7 @@ const LeftContent = styled.div`
 const RightContent = styled.div``;
 
 const api = axios.create({
-  baseURL: "http://127.0.0.1:8000/Search?search=",
+  baseURL: "https://ecotopo.herokuapp.com/?search=",
 });
 
 class Banner extends React.Component {
@@ -94,7 +94,7 @@ class Banner extends React.Component {
     var search = this.state.value;
     try {
       if (search) {
-        api.get("http://127.0.0.1:8000/Search?search=" + search).then((res) => {
+        api.get("https://ecotopo.herokuapp.com/?search=" + search).then((res) => {
           this.setState({
             clientInfo: res.data,
           });
