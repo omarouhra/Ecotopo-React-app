@@ -121,7 +121,7 @@ const Navbar = ({ toggle }) => {
 
   let style = {
     backgroundColor:
-      navbar || location.pathname !== "/" ? "#FFF8F4" : "transparent",
+      navbar || location.pathname !== "/" ? "#FCE2DA" : "transparent",
 
     transition: "0.4s",
   };
