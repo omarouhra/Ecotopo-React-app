@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import logo from "../images/logo.png";
-import fb from "../images/facebook.png";
 
 const Section = styled.section`
   width: 100%;
@@ -90,7 +89,7 @@ const RightContent = styled.div`
     font-family: "open sans";
     color: black;
     font-weight: 400;
-    margin-top: 5px;
+    margin-top: 10px;
   }
   a {
     span {
@@ -157,13 +156,18 @@ const Footer = () => {
             data-aos-duration="1000"
             data-aos-delay="300"
           >
-            <img src={fb} alt="facebook" />
             <p>+212 528 21 19 19</p>
             <p>ecotopo@gmail.com</p>
             <p>
               Agadir, Bloc 15 Cité Al Farha{" "}
               <a href="https://www.google.com/maps/place/%D9%85%D9%83%D8%AA%D8%A8+%D8%B1%D9%81%D9%8A%D9%82+%D9%84%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9+%D8%A7%D9%84%D8%B7%D8%A8%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9%E2%80%AD/@30.4247155,-9.5778998,236m/data=!3m1!1e3!4m12!1m6!3m5!1s0xdb3b7df8e8f490b:0xce5ad097fa7a49fb!2z2YXZg9iq2Kgg2LHZgdmK2YIg2YTZhNmH2YbYr9iz2Kkg2KfZhNi32KjZiNi62LHYp9mB2YrYqQ!8m2!3d30.42538!4d-9.5778535!3m4!1s0xdb3b7df8e8f490b:0xce5ad097fa7a49fb!8m2!3d30.42538!4d-9.5778535">
                 localisation <span> &gt; </span>
+              </a>
+            </p>
+            <p>
+              Visitez notre page{"  "}
+              <a href="https://www.facebook.com/pages/category/Corporate-Office/%D9%85%D9%83%D8%AA%D8%A8-%D8%B1%D9%81%D9%8A%D9%82-%D9%84%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D8%B7%D8%A8%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9-1583473581919673/">
+                 Facebook  <span> &gt; </span>
               </a>
             </p>
           </RightContent>
