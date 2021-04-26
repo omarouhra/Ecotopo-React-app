@@ -20,6 +20,6 @@ export const SliderData = [
 
 export const TitleData = [
     { title: 'de la topographie'},
-    { title: 'des travaux urbaines'},
+    { title: 'des travaux urbains'},
     { title: 'de l\'\expertise fonciere'},
 ]
