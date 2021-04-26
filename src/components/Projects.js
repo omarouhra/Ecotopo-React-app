@@ -82,7 +82,7 @@ const Projects = () => {
         <Section id="Projets">
 
             <Container>
-                <SectionTitle>Nos Projects</SectionTitle>
+                <SectionTitle>Nos Projets</SectionTitle>
 
                 <ProjectContainer>
 

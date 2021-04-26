@@ -9,7 +9,7 @@ export const SliderData = [
     },
     {
         image: ImageTwo,
-        alt: 'travaux urbaines'
+        alt: 'Travaux urbains'
     },
     {
         image: ImageThree,
