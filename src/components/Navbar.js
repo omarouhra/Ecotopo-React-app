@@ -15,6 +15,7 @@ const Nav = styled.nav`
   z-index: 100;
   position: fixed;
   width: 100%;
+  z-index:999;
   @media screen and (min-width: 1000px) {
     height: 100px;
     padding: 3rem 2rem;
