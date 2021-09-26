@@ -1,5 +1,5 @@
-import projectImg from '../images/project-1.png'
-import projectImg1 from '../images/project-2.png'
+import projectImg from '../images/project-1.webp'
+import projectImg1 from '../images/project-2.webp'
 
 const ProjectData = {
 

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import styled, { css } from "styled-components/macro";
 import menuData from "../data/MenuData";
-import logo from "../images/logo.png";
+import logo from "../images/logo.webp";
 import { HashLink as Link } from "react-router-hash-link";
 import { useLocation } from "react-router-dom";
 import Bars from "../images/menu.svg";
@@ -15,7 +15,7 @@ const Nav = styled.nav`
   z-index: 100;
   position: fixed;
   width: 100%;
-  z-index:999;
+  z-index: 999;
   @media screen and (min-width: 1000px) {
     height: 100px;
     padding: 3rem 2rem;
@@ -129,7 +129,7 @@ const Navbar = ({ toggle }) => {
   return (
     <Nav style={style}>
       <Container>
-        <Logo smooth to="#Hero"></Logo>
+        <Logo smooth to='#Hero'></Logo>
         <MenuBars onClick={toggle} />
         <NavMenu>
           {menuData.map((item, index) => (

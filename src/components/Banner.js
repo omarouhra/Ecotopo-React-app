@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import banner from "../images/banner.png";
+import banner from "../images/banner.webp";
 import axios from "axios";
 import {
   FormControl,
@@ -94,7 +94,7 @@ class Banner extends React.Component {
     var search = this.state.value;
     try {
       if (search) {
-        api.get("https://ecotopo.herokuapp.com/?search=" + search).then((res) => {
+        api.get("https://ecotopo.herokuapp.com/?search=" + search).then(res => {
           this.setState({
             clientInfo: res.data,
           });
@@ -108,9 +108,9 @@ class Banner extends React.Component {
     var clientInfo = this.state.clientInfo;
 
     return (
-      <Section id="Banner">
+      <Section id='Banner'>
         <Container>
-          <img src={banner} alt="Topographie" />
+          <img src={banner} alt='Topographie' />
           <Feature>
             <LeftContent>
               <form onSubmit={this.handleSubmit}>
@@ -118,29 +118,29 @@ class Banner extends React.Component {
                   <InputLabel>Suivre votre projet</InputLabel>
                   <Input
                     onChange={this.handleChange}
-                    type="text"
-                    name="Cin"
-                    placeholder="Entrez votre CIN"
+                    type='text'
+                    name='Cin'
+                    placeholder='Entrez votre CIN'
                   />
                 </FormControl>
                 <br></br>
                 <br></br>
-                <Button type="submit" variant="contained" color="#0D435A">
+                <Button type='submit' variant='contained' color='#0D435A'>
                   Valider
                 </Button>
               </form>
             </LeftContent>
-            {clientInfo.map((project) => {
+            {clientInfo.map(project => {
               return (
-                <RightContent key="clientInfo">
-                  <h1 data-aos="fade-up" key="nom">
+                <RightContent key='clientInfo'>
+                  <h1 data-aos='fade-up' key='nom'>
                     Client :{" "}
                     <span>
                       {project.Nom} {project.Prenom}
                     </span>
                   </h1>
 
-                  <h1 data-aos="fade-up" data-aos-delay="400" key="status">
+                  <h1 data-aos='fade-up' data-aos-delay='400' key='status'>
                     Status :<span> {project.status}</span>
                   </h1>
                 </RightContent>

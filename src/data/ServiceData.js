@@ -1,4 +1,4 @@
-import ServiceImg from "../images/service-img.png";
+import ServiceImg from "../images/service-img.webp";
 
 const ServiceData = {
   image: ServiceImg,

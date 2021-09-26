@@ -1,5 +1,5 @@
-import topoImage from "../images/AboutUs-1.png";
-import CeoImg from "../images/CEO.JPG";
+import topoImage from "../images/AboutUs-1.webp";
+import CeoImg from "../images/CEO.JPG.webp";
 
 const CeoData = {
   image: topoImage,
